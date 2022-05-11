@@ -9,3 +9,38 @@
     height: 25px
 
   }
+  a {
+
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+  }
+
+
+div#content {
+
+  max-width: 1600px;
+  text-align: center;
+  text-decoration: none;
+}
+nav a
+#hero-msg h1, #hero-msg h4
+.button-box
+main section
+
+#background {
+  height: 725px;
+}
+body {
+  background-color: rgba(255, 185, 127, 0.815);
+}
+header {
+  background-color:rgba(107, 55, 0, 0.815);
+}
+
+
+
+
+footer {
+  background-color: black;
+  color: #d9c2a3;
+} 

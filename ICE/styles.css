@@ -1,0 +1,62 @@
+body {
+    background-color: #fca6c9;
+  }
+  
+  .pageContent {
+    text-align: center;
+    width: 50%;
+    max-width: 700px;
+    /* width: 450px; */
+    margin: 0 auto;
+  }
+  
+  h1:hover {
+    color: black;
+  }
+  
+  .pageContent ol {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .pageContent ol li {
+    /* padding-bottom: 20px; */
+    line-height: 33px;
+  }
+  
+  .coolFont {
+    font-family: Arial, sans-serif;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  img {
+    width: 150px;
+  }
+  
+  .quotation {
+    margin: 20px 70px;
+    font-size: 35px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .quotation::before {
+    content: '❝';
+    margin-right: 5px;
+  }
+  .quotation::after {
+    content: '❞';
+    margin-left: 5px;
+  }
+  
+  footer {
+    margin: 0 70px;
+  }
+  
+  footer p {
+    font-size: 80%;
+    margin: 3px;
+  }

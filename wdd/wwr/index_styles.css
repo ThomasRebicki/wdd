@@ -1,3 +1,14 @@
+
+
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+
 .centerr {
     display: block;
     margin-left: auto;
@@ -9,10 +20,22 @@
     height: 25px
 
   }
+  .card-img{
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border: 10px solid white;
+  
+  }
   a {
 
     text-decoration: none;
     color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 35px;
   }
 
 
@@ -24,6 +47,11 @@ div#content {
 }
 nav a
 #hero-msg h1, #hero-msg h4
+
+text-decoration: none;
+color: #fcfbfb;
+text-align: center;
+padding: 35px;
 .button-box
 main section
 
@@ -32,6 +60,10 @@ main section
 }
 body {
   background-color: rgba(255, 185, 127, 0.815);
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color:rgba(107, 55, 0, 0.815);

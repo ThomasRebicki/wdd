@@ -1,0 +1,34 @@
+.main{
+
+width: 100%;
+height: auto;
+
+}
+.rectangle {
+    height: 100%;
+    width: 100%;
+    margin-top: -5px;
+    background-color: #555;
+  }
+  .circle {
+    height: auto;
+    width: 20%;
+  
+    position: relative;
+    left: 15%
+   
+    
+    
+
+  }
+  .notc {
+    height: auto;
+    width: 20%;
+  
+    position: relative;
+    left: 15%
+   
+    
+    
+
+  }

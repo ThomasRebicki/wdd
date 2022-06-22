@@ -1,0 +1,18 @@
+
+print("Insert your information")
+email = input('Insert email: ')
+Name = input('Insert your first name: ')
+Last = input('Insert your last name: ')
+Nuber =input('Insert phone number: ')
+au = input('Insert your ID number: ')
+Job = input('Insert you occupation: ')
+
+print("The ID Card is:")
+print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+print(f"{Last.upper()}, {Name.capitalize()}")
+print(Job.title())
+print(f"ID: {au}")
+print()
+print(email.lower())
+print(Nuber)
+print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx") 

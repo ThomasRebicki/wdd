@@ -110,9 +110,8 @@ grid-row: 1/10
   grid-column: 1/7;
   grid-row: 2/3;
   padding-left: -40px
-  
-  } 
-  .txt1 {
+} 
+.txt1 {
     width: 600px; 
     height: 800px; 
     background-color: rgb(255, 255, 255); 
@@ -121,4 +120,22 @@ grid-row: 1/10
     border-color:#3f1f79;
     border-width: 6px;
     grid-row: 4/5    
-    } 
+} 
+
+.tet {
+      width: 99%; 
+      height: 99%; 
+}
+textarea {
+  resize: none;
+}
+#output{
+  width: 100px; 
+  height: 100px; 
+  background-color: rgb(255, 255, 255); 
+  grid-column: 1;
+  border-style: solid;
+  border-color:#3f1f79;
+  border-width: 6px;
+  grid-row: 1/3
+}

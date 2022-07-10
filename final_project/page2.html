@@ -28,14 +28,40 @@
 
 
 <div class="activity">
- 
+     
+    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+    <p><label for="file" style="cursor: pointer;">Upload Image</label></p>
     <div class="content1">
-      <div class="red1"></div>
-      <div class="green1"></div>
-      <div class="yellow1"></div>
+   
+    
+    <script>
+    var loadFile = function(event) {
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    };
+    </script>
+
+
+
+      <p><img id="output" width="100%" /></p>
+      <div class="green1">
+        <input class="tet" name="first_name" placeholder="Level">
+      </div>
+      <div class="yellow1">
+        <input class="tet" name="first_name" placeholder="AC">
+      </div>
       <div class="blue1"></div>
-      <div class="blue2"></div>
-      <div class="txt1"></div>
+      <div class="blue2">
+        <input class="tet" name="first_name" placeholder="What is your character name?">
+      </div>
+      <div class="txt1"> 
+        <textarea class="tet" name="first_name" >
+Your character backstory: 
+
+        </textarea>
+
+    
+    </div>
     </div>
   </div>
 

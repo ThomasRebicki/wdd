@@ -98,7 +98,7 @@ grid-column: 3;
 .blue1 {
 width: 400px; 
 height: 1000px; 
-background-color: rgb(58, 58, 58); 
+background-color: #3f1f79; 
 grid-column: 9/10;
 grid-row: 1/10
 
@@ -138,4 +138,19 @@ textarea {
   border-color:#3f1f79;
   border-width: 6px;
   grid-row: 1/3
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #9663E3;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #9663E3;
 }

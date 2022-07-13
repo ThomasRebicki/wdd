@@ -179,7 +179,7 @@ footer {
 .red1 { 
 width: 70%; 
 height: 300px; 
-background-color: rgb(255, 255, 255); 
+background-color: #3f1f79; 
 grid-column: 1/4;
 border-style: solid;
 border-color:#3f1f79;
@@ -189,15 +189,49 @@ grid-row: 3/6
 .second {
   display: grid;
   justify-items: center;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto ;
   grid-gap:20px;
 
 }
 
 .green1 {
-  background-color: #9663E3;
-  padding: 20px;
-  font-size: 30px;
-  width: 100px;
-  height:100px;
+  background-color: #3f1f79; 
+  width: 70%;
+  height:400px;
 } 
+.tet {
+  width: 99.7%; 
+  height: 99%; 
+}
+textarea {
+resize: none;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #9663E3;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #9663E3;
+}
+ab {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.815);
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #9663E3;
+  
+  }
+  
+  ab:hover{
+  color: rgba(255, 255, 255, 0.815);
+  }
+  nav ab

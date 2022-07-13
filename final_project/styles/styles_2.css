@@ -1,7 +1,7 @@
 
 
 header {
-  background-color:#3f1f79 ;
+  background-color: #3f1f79 ;
   margin-left: -20px;
   margin-right: -20px;
   margin-top: -20px;
@@ -43,7 +43,20 @@ a:hover{
 color: rgba(255, 255, 255, 0.815);
 }
 nav a
-
+ab {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.815);
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #9663E3;
+  
+  }
+  
+  ab:hover{
+  color: rgba(255, 255, 255, 0.815);
+  }
+  nav ab
 text-decoration: none;
 color: #fcfbfb;
 text-align: center;
@@ -153,4 +166,8 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #9663E3;
+}
+footer {
+  background-color:#3f1f79 ;
+
 }

@@ -15,3 +15,7 @@ print(f"A {fox} {animal} was {verb2} in the bed.")
 print(f"Until {person} started to {verb1} on top of {emotion} {object}s.")
 print(f"This made the {animal} very {emotion}.")
 print(f"Luckly, the {fox} {animal} had a anti-{object} {object2}{number2}tm.")
+
+fox.lower()
+
+print(f" fox { 5 + 7 }  ")

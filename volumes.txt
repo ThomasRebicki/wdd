@@ -1,0 +1,5 @@
+True
+32
+23
+23
+<built-in function input>
